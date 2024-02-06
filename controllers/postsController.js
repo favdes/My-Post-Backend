@@ -57,7 +57,7 @@ const getAllPostsByUser = async (req,res)=>{
     }
 }
 // delete a users post
-const deleteUserPost = async(req,res)=>{
+const deleteUserPost = async(req, res)=>{
     const {postId} =req.params;
     const {userId} = req.user;
 
@@ -76,7 +76,4 @@ module.exports ={
      getAPost,
      getAllPostsByUser,
      deleteUserPost
-
-
-
 }

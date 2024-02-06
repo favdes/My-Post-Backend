@@ -1,4 +1,4 @@
-const USER = require("../model/user");
+const USER = require("../model/UseModel");
 const { handleErrorUser } = require("../helpers/errorHandler")
 const jwt = require("jsonwebtoken")
 // registration ftn
